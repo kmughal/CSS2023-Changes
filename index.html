@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Import Map Example</title>
+    <script type="importmap">
+      {
+        "imports": {
+          "luxon": "https://ga.jspm.io/npm:luxon@3.3.0/src/luxon.js",
+          "exampleModule": "./modules/exampleModule.js"
+        }
+      }
+    </script>
+   
+  </head>
+  <body>
+    <h1>Import Map Example</h1>
+    <p>
+      You can use
+      <a href="https://generator.jspm.io/#U2VhYGAIzSvJLMlJTWEAACKwkqAOAA"
+        >JSPM genertor</a
+      >
+      to get the imports
+    </p>
+    <div id="root"></div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
